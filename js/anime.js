@@ -33,7 +33,7 @@ gsap.from('.about__inner',1,{
         
         scrab:true
     },
-    yPercent:100,
+    yPercent:50,
 })
 gsap.from('.about__title .word',1,{
     scrollTrigger:{
@@ -42,7 +42,7 @@ gsap.from('.about__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.industry__title .word',1,{
     scrollTrigger:{
@@ -51,7 +51,7 @@ gsap.from('.industry__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.industry__inner .industry__item',1,{
     scrollTrigger:{
@@ -69,7 +69,7 @@ gsap.from('.complex__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.complex__inner .complex__item',1,{
     scrollTrigger:{
@@ -78,7 +78,7 @@ gsap.from('.complex__inner .complex__item',1,{
         end:'100% 100%',
         toggleActions:'play none none none',
     },
-    opacity:0, yPercent:100, stagger:0.2,
+    opacity:0, yPercent:50, stagger:0.2,
 })
 
 gsap.from('.news__title .word',1,{
@@ -88,7 +88,7 @@ gsap.from('.news__title .word',1,{
         end:'70% top',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.news__wrapper .news__slide',1,{
     scrollTrigger:{
@@ -97,7 +97,7 @@ gsap.from('.news__wrapper .news__slide',1,{
         end:'100% top',
         toggleActions:'play none none none',
     },
-    opacity:0, yPercent:100, stagger:0.2,
+    opacity:0, yPercent:50, stagger:0.2,
 })
 gsap.from('.clients__title .word',1,{
     scrollTrigger:{
@@ -107,7 +107,7 @@ gsap.from('.clients__title .word',1,{
         toggleActions:'play none none none',
         
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.clients__inner .clients__item',1,{
     scrollTrigger:{
@@ -117,7 +117,7 @@ gsap.from('.clients__inner .clients__item',1,{
         toggleActions:'play none none none',
         scrab:true
     },
-    opacity:0, yPercent:100, stagger:0.1,
+    opacity:0, yPercent:50, stagger:0.1,
 })
 gsap.from('.contacts__title .word',1,{
     scrollTrigger:{
@@ -126,7 +126,7 @@ gsap.from('.contacts__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.contacts__container',1,{
     scrollTrigger:{
@@ -135,7 +135,7 @@ gsap.from('.contacts__container',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.4, 
+    opacity:0, yPercent:50, stagger:0.4, 
 })
 gsap.from('.video__item',1,{
     scrollTrigger:{
@@ -144,7 +144,7 @@ gsap.from('.video__item',1,{
         end:'70% 80%',
         toggleActions:'play none none none',
     },
-    opacity:0, yPercent:100, stagger:0.4, 
+    opacity:0, yPercent:50, stagger:0.4, 
 })
 gsap.from('.citatata__container',1,{
     scrollTrigger:{
@@ -153,7 +153,7 @@ gsap.from('.citatata__container',1,{
         end:'70% 80%',
         toggleActions:'play none none none',
     },
-    opacity:0, yPercent:100, stagger:0.4, 
+    opacity:0, yPercent:50, stagger:0.4, 
 })
 gsap.from('.dvigatel__container',1,{
     scrollTrigger:{
@@ -162,7 +162,7 @@ gsap.from('.dvigatel__container',1,{
         end:'70% 80%',
         toggleActions:'play none none none',
     },
-    opacity:0, yPercent:100, stagger:0.4, 
+    opacity:0, yPercent:50, stagger:0.4, 
 })
 }
 
@@ -195,7 +195,7 @@ gsap.from('.industry__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 
 gsap.from('.complex__title .word',1,{
@@ -205,7 +205,7 @@ gsap.from('.complex__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 
 gsap.from('.news__title .word',1,{
@@ -215,7 +215,7 @@ gsap.from('.news__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 
 gsap.from('.clients__title .word',1,{
@@ -225,7 +225,7 @@ gsap.from('.clients__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none',
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 
 gsap.from('.contacts__title .word',1,{
@@ -235,7 +235,7 @@ gsap.from('.contacts__title .word',1,{
         end:'70% 80%',
         toggleActions:'play none none none'
     },
-    opacity:0, yPercent:100, stagger:0.3, 
+    opacity:0, yPercent:50, stagger:0.3, 
 })
 
 
