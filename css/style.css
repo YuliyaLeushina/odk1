@@ -1014,7 +1014,7 @@ button::-moz-focus-inner {
 }
 @media (max-width: 47.99875em) {
   .first-screen {
-    background: #C83232 url(../img/fs-mob.webp) bottom right/225px 347px no-repeat;
+    background: #C83232 url(../img/fs-mob.webp) bottom right/ contain no-repeat;
   }
 }
 .first-screen::after {
