@@ -167,25 +167,6 @@ gsap.from('.dvigatel__container',1,{
 }
 
 if(window.innerWidth < 1024){
-let tl = gsap.timeline();
-tl
-
-.from('.logo', .6,{
-    
-    y:-50,
-    opacity:0,
-})
-
-.from('.first-screen__title ', 1, {
-    
-    opacity:0, y:100, 
-    
-})
-.from('.first-screen__btns', .6, {
-    
-    y:150,
-    opacity:0
-})
 
 
 gsap.from('.industry__title .word',1,{
