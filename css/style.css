@@ -2521,12 +2521,18 @@ button::-moz-focus-inner {
   display: block;
   width: 100%;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
 }
-
+.img-responsive-mob {
+  display: none;
+}
+@media (max-width:767.8px){
+  .img-responsive {
+    display: none;
+  }
+  .img-responsive-mob {
+    display:block;
+  }
+}
 @media (min-width: 47.99875em) {
   .spollers {
     display: none;
