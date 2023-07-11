@@ -24,6 +24,7 @@ tl
     y:50,
     opacity:0
 })
+
 gsap.from('.about__inner',1,{
     scrollTrigger:{
         trigger:'.first-screen',
@@ -80,30 +81,51 @@ gsap.from('.complex__inner .complex__item',1,{
     },
     opacity:0, yPercent:50, stagger:0.2,
 })
-
-gsap.from('.news__title .word',1,{
+gsap.from('.news',1,{
     scrollTrigger:{
         trigger:'.video',
         start:'100 top',
+        end:'50% top',
+        toggleActions:'play none none none',
+        
+    },
+    y:150
+})
+gsap.from('.news__title .word',1,{
+    scrollTrigger:{
+        trigger:'.video',
+        start:'400 top',
         end:'70% top',
-        toggleActions:'play none none none'
+        toggleActions:'play none none none',
+        
     },
     opacity:0, yPercent:50, stagger:0.3, 
 })
 gsap.from('.news__wrapper .news__slide',1,{
     scrollTrigger:{
         trigger:'.video',
-        start:'150 top',
+        start:'450 top',
         end:'100% top',
         toggleActions:'play none none none',
+        
     },
     opacity:0, yPercent:50, stagger:0.2,
 })
+gsap.from('.clients',1,{
+    scrollTrigger:{
+        trigger:'.citatata',
+        start:'100 top',
+        end:'50% top',
+        toggleActions:'play none none none',
+        
+    },
+    y:200
+})
 gsap.from('.clients__title .word',1,{
     scrollTrigger:{
-        trigger:'.clients',
-        start:'top 80%',
-        end:'70% 80%',
+        trigger:'.citatata',
+        start:'500 top',
+        end:'70% top',
         toggleActions:'play none none none',
         
     },
@@ -111,9 +133,9 @@ gsap.from('.clients__title .word',1,{
 })
 gsap.from('.clients__inner .clients__item',1,{
     scrollTrigger:{
-        trigger:'.clients',
-        start:'top 70%',
-        end:'70% 100%',
+        trigger:'.citatata',
+        start:'550 top',
+        end:'100% top',
         toggleActions:'play none none none',
         scrab:true
     },
